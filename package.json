@@ -1,0 +1,24 @@
+{
+    "name": "hyper.io-express-auth-basic",
+    "version": "0.0.1",
+    "description": "Express Basic Auth Middleware for Hyper.io",
+    "keywords": [
+        "node.js",
+        "javascript",
+        "hyper.io",
+        "express",
+        "basic-auth",
+        "auth"
+    ],
+    "author": {
+        "name": "Joseph E. Sutton",
+        "email": "joe@jstty.com",
+        "web": "http://www.jstty.com"
+    },
+    "license": {
+        "type": "MIT"
+    },
+    "dependencies": {
+        "basic-auth": "~1.0.0"
+    }
+}

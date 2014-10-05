@@ -1,17 +1,5 @@
-hyper.io-express-basicauth
-==========================
-
-Express Basic Auth Middleware for Hyper.io
-
-## NPM
-```sh
-$ npm install hyper.io-express-auth-basic
-```
-
-## Use
-```javascript
 var hyper     = require('hyper.io');
-var basicAuth = require('hyper.io-express-auth-basic');
+var basicAuth = require('../index.js');
 
 // add Basic Auth, this is optional,
 // hyper.io will auto try to require the 'auth-basic'
@@ -39,5 +27,3 @@ hyper().start({
         }
     ]
 });
-
-```
